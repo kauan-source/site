@@ -60,7 +60,10 @@
 
 .header .navbar a:nth-child(5){
     background: #1a1150;
+    .degrade-lateral {
+  background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
+
 
 .container{
     display: flex;
