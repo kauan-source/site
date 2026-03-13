@@ -43,23 +43,23 @@
 }
 
 .header .navbar a:nth-child(1){
-    background: #e74c3c;
+    background: #1a1150;
 }
 
 .header .navbar a:nth-child(2){
-    background: #27ae60;
+    background: #1a1150;
 }
 
 .header .navbar a:nth-child(3){
-    background: #2980b9;
+    background: #1a1150;
 }
 
 .header .navbar a:nth-child(4){
-    background: #8e44ad;
+    background: #1a1150;
 }
 
 .header .navbar a:nth-child(5){
-    background: #f39c12;
+    background: #1a1150;
 }
 
 .container{
@@ -82,23 +82,23 @@
 }
 
 .container section:nth-child(1){
-    background: #e74c3c;
+    background: #1a1150;
 }
 
 .container section:nth-child(2){
-    background: #27ae60;
+    background: #1a1150;
 }
 
 .container section:nth-child(3){
-    background: #2980b9;
+    background: #1a1150;
 }
 
 .container section:nth-child(4){
-    background: #8e44ad;
+    background: #1a1150;
 }
 
 .container section:nth-child(5){
-    background: #f39c12;
+    background: #1a1150;
 }
 
 @media(max-width:768px){
