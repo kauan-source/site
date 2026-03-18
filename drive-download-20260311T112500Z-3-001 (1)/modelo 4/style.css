@@ -14,7 +14,7 @@ html, body {
     position: fixed;
     top: 0; left: 0; right: 0;
     height: 70px;
-    z-index: 1000;
+    z-index: 600px;
     background: #1a1150;
 }
 
@@ -27,20 +27,20 @@ html, body {
     flex: 1;
     text-align: center;
     line-height: 70px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 .navbar a:hover {
-    background: rgba(255,255,255,0.1);
+    background: rgba(25, 2, 156, 0.925);
     letter-spacing: 2px;
 }
 
 .container {
     display: flex;
-    width: 500vw;          /* 5 × 100vw */
+    width: 100vw;          /* 5 × 100vw */
     height: 100vh;
     scroll-snap-type: x mandatory;   /* ← snap nas seções */
     overflow-x: auto;                /* ← permite scroll lateral */
@@ -55,6 +55,9 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 12vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vw;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
@@ -62,16 +65,16 @@ section {
 }
 
 /* Cores diferentes para visualizar melhor */
-section:nth-child(1) { background: #130850; }
-section:nth-child(2) { background: #200f80; }
-section:nth-child(3) { background: #1a098b; }
-section:nth-child(4) { background: #17087a; }
+section:nth-child(1) { background: #130564; }
+section:nth-child(2) { background: #130564; }
+section:nth-child(3) { background: #130564; }
+section:nth-child(4) { background: #130564; }
 section:nth-child(5) { 
-    background: linear-gradient(to right, #570f11, #fad0c4);
-    color: #333;
+    background: linear-gradient(to right, #190868, #110891, #09015aee);
+    color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 300px) {
     .navbar a {
         font-size: 1rem;
     }
